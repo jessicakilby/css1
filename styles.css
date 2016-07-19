@@ -1,3 +1,33 @@
 body {
 	background-color: teal;
 }
+
+.new-border {
+	border: 2px solid black;
+}
+
+.new-border2 {
+	border-width: 2px;
+	border-style: solid;
+	border-color:; black;
+}
+
+.title-color {
+	border-color: green;
+}
+
+.image-color {
+	border-color: blue;
+}
+
+.text1-color {
+	border-color: red;
+}
+
+.text2-color {
+	border-color: orange;
+}
+
+.footer-color {
+	border-color: aqua;
+}
