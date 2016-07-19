@@ -22,12 +22,42 @@ body {
 
 .text1-color {
 	border-color: red;
+	float: left;
+	width: 45%;
 }
 
 .text2-color {
 	border-color: orange;
+	float: right;
+	width: 45%;
 }
 
 .footer-color {
 	border-color: aqua;
+	clear: both;
+}
+
+.top-nav {
+	background-color: goldenrod;
+	height: 45px;
+}
+.top-nav li {
+	list-style-type: none;
+	font-family: "Arial";
+	display: inline;
+	cursor: pointer;
+}
+
+.title {
+	border-color: green;
+	text-align: center;
+	font-size: 50px;
+}
+
+.img-box {
+	width: 30%;
+	height: 50px;
+	border: 2px dashed lime;
+	display: inline-block;
+	margin-right: 2%;
 }
