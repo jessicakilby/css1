@@ -1,0 +1,11 @@
+.top-right ul li{
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+	padding: 10px;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+}
