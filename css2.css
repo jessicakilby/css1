@@ -1,3 +1,35 @@
 body {
 	background-color: teal;
 }
+
+div {
+	border: 3px solid navy;
+}
+
+.div-block {
+	display: block;
+}
+
+.div-inline {
+	display: inline;
+	color: green;
+}
+
+.div-inline-block {
+	display: inline-block;
+	color: yellow;
+}
+
+/*psuedo classes*/
+
+article section:nth-child(2n){
+	border: 2px dashed white;
+}
+
+article section:nth-child(2n+1){
+	border: 2px dashed purple;
+}
+
+article section:first-of-type {
+	background-color: red;
+}
